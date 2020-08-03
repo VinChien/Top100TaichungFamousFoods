@@ -1,0 +1,30 @@
+$green:mediumseagreen;
+
+#info {
+    // display: grid;
+    // grid-template-columns: repeat(3, 1fr);
+    // grid-gap: 30px;
+    .infoCards {
+        // padding: 2%;
+        .contentBox {
+            .content {
+                border: 1px solid $green;
+                border-radius: 15px;
+                p {
+                    &:nth-child(1) {
+                        border-bottom: 1px dashed $green;
+                        padding: 3%;
+                        &::before {
+                            content: ">";
+                            color: $green;
+                        }
+                        &::after {
+                            content: "<";
+                            color: $green;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

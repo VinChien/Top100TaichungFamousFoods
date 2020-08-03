@@ -1,0 +1,20 @@
+#info .infoCards .contentBox .content {
+  border: 1px solid mediumseagreen;
+  border-radius: 15px;
+}
+
+#info .infoCards .contentBox .content p:nth-child(1) {
+  border-bottom: 1px dashed mediumseagreen;
+  padding: 3%;
+}
+
+#info .infoCards .contentBox .content p:nth-child(1)::before {
+  content: ">";
+  color: mediumseagreen;
+}
+
+#info .infoCards .contentBox .content p:nth-child(1)::after {
+  content: "<";
+  color: mediumseagreen;
+}
+/*# sourceMappingURL=main.css.map */
